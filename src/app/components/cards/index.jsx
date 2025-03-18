@@ -4,9 +4,7 @@ const Card = ({ capa, textoAlt, titulo, ano, detalhes }) => {
     return (
         <div className={styles.trophy}>
               <div className={styles.trophyCover}>
-                <img
-                  src={capa}
-                  alt={textoAlt}/>
+                <img src={capa} alt={textoAlt}/>
               </div>
               <div className={styles.trophyInfo}>
                 <h3>{titulo}</h3>
